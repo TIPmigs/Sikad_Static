@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Payment Failed</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="refresh" content="2;url=myapp://main">
+  <meta http-equiv="refresh" content="2;url=myapp://main?status=failed">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light d-flex justify-content-center align-items-center vh-100">
@@ -12,7 +12,7 @@
   <div class="text-center">
     <h1 class="text-danger mb-3">❌ Payment Failed</h1>
     <p class="mb-4">Redirecting to the app...</p>
-    <a href="myapp://main" class="btn btn-danger">Tap here if not redirected</a>
+    <a href="myapp://main?status=failed" class="btn btn-danger">Tap here if not redirected</a>
   </div>
 
 </body>
